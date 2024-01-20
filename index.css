@@ -78,8 +78,20 @@ body{
 .quote-box button:hover{
     box-shadow: 1px 6px 10px greenyellow;
 }
+.quote-box img{
+    display: none;
+    position: relative;
+    left: 600px;
+}
 @media screen and (max-width: 600px) {
     .quote-box {
-        padding: 20px;
+        padding: 10px;
+    }
+    .quote-box img {
+        display: block;  
+        margin: 0 auto;  
+        max-width: 100%; 
+        position: relative;
+        left: 0;
     }
 }
